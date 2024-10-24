@@ -8,8 +8,18 @@ site_url: https://kerimturak.github.io/my-mkdocs-site
 theme:
   name: 'material'
   palette:
-    primary: 'deep purple'
-    accent: 'indigo'
+      - scheme: slate  # Karanlık tema (Slate)
+        primary: 'deep purple'
+        accent: 'indigo'
+        toggle:
+          icon: material/lightbulb-outline  # Tema değiştirici için ikon
+          name: Switch to light mode  # Karanlık moddan aydınlık moda geçişte gösterilecek metin
+      - scheme: default  # Aydınlık tema (Default)
+        primary: 'deep purple'
+        accent: 'indigo'
+        toggle:
+          icon: material/lightbulb  # Aydınlık tema için ikon
+          name: Switch to dark mode  # Aydınlık moddan karanlık moda geçişte gösterilecek metin
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
@@ -25,7 +35,7 @@ plugins:
   - search:  # Arama motoru yapılandırması
       lang: en
       separator: '[\s\-]+'
-      fallback_to_build_date: false
+
 
 # Gezinme (Navigasyon)
 nav:
@@ -50,12 +60,12 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/username/my-mkdocs-site
+      link: https://github.com/kerimturak/tdigital-design/
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/your-profile
+      link: https://www.linkedin.com/in/kerimturak0/
   analytics:
-    google: 'UA-XXXXXX-Y'  # Google Analytics ID
-  canonical_url: https://username.github.io/my-mkdocs-site  # Ana URL
+    google: 'G-1Z793ME76P'  # Google Analytics ID
+  canonical_url: https://tdigital-design.com/kerimturak/  # Ana URL
   site_description: 'A detailed project documentation with SEO optimizations.'
   site_author: 'Kerim Turak'
   consent:
@@ -79,18 +89,27 @@ extra:
 
 # Markdown Uzantıları (Gelişmiş Biçimlendirme)
 markdown_extensions:
-  - codehilite:
-      guess_lang: false
-  - footnotes  # Dipnot desteği
-  - toc:
-      permalink: true  # Başlık bağlantıları
-  - pymdownx.superfences  # Gelişmiş kod blokları
-  - pymdownx.tasklist  # Görev listeleri
-  - pymdownx.details  # Ayrıntı blokları
-  - attr_list  # Özel nitelik listeleri
+  - toc:               # Sayfa başına bir içindekiler tablosu ekler
+      permalink: true  # Başlık bağlantıları ekler
+  - footnotes          # Dipnotlar ekler
+  - tables             # Gelişmiş tablo desteği sağlar
+  - admonition         # Uyarı, ipucu, not gibi bilgi kutuları oluşturur
+  - pymdownx.superfences  # Gelişmiş kod blokları ve içerikler için destek
+  - pymdownx.details   # Açılır kapanır detay/özet bölümleri oluşturur
+  - pymdownx.highlight # Gelişmiş kod vurgulama özellikleri sağlar
+  - pymdownx.magiclink # URL'leri ve e-posta adreslerini otomatik olarak bağlantılara dönüştürür
+  - pymdownx.tasklist  # Yapılacaklar listeleri oluşturur
+  - pymdownx.emoji     # Emoji desteği ekler
+  - attr_list          # HTML sınıfları ve stiller gibi öznitelikler eklemenizi sağlar
+  - def_list           # Tanım listeleri oluşturmanızı sağlar
+  - abbr               # Kısaltmalar ve açıklamalar ekler
+  - smarty             # Otomatik tipografik düzeltmeler yapar (tırnak işaretleri, uzun tireler vb.)
+  - codehilite         # Kod bloklarına sözdizimi vurgulama ekler
+  - meta               # Sayfa başına meta veriler ekler
+
 
 # Yayınlama Ayarları
-repo_url: https://github.com/username/my-mkdocs-site  # GitHub repo
+repo_url: https://github.com/kerimturak/tdigital-design/  # GitHub repo
 repo_name: 'GitHub'
 edit_uri: 'edit/main/docs/'  # Kullanıcıların GitHub üzerinden döküman düzenlemesi için link
 
