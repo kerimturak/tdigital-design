@@ -1,1 +1,122 @@
-site_name: My Docs
+# Site Genel Bilgileri
+site_name: T-DIGITAL DESING
+site_description: Comprehensive documentation for my project
+site_author: Kerim Turak
+site_url: https://kerimturak.github.io/my-mkdocs-site
+
+# Tema Ayarları (Material for MkDocs)
+theme:
+  name: 'material'
+  palette:
+    primary: 'deep purple'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: './images/tcore_back.png'  # Özel logo
+  favicon: './images/tcore.png'  # Tarayıcı simgesi
+  features:
+    - navigation.tabs  # Sekmeli navigasyon
+    - navigation.top  # Üst menüde gezinti
+    - search.suggest  # Arama önerileri
+
+# Eklentiler
+plugins:
+  - search:  # Arama motoru yapılandırması
+      lang: en
+      separator: '[\s\-]+'
+  - mkdocs-material:
+      features:
+        - content.code.annotate  # Kod açıklamaları
+  - sitemap:  # SEO için site haritası
+      changefreq: 'monthly'
+      priority: 0.5
+  - mkdocs-minify-plugin:  # HTML, CSS ve JS dosyalarını küçültme
+      minify_html: true
+  - mkdocs-glightbox:  # Görselleri ışık kutusunda açma (lightbox)
+      touchNavigation: true
+  - markdown_include:  # Markdown dosyalarını başka dosyalarda include etme
+  - awesome-pages:  # Otomatik gezinme yapısı oluşturma
+  - git-revision-date-localized:  # Sayfa en son düzenlenme tarihi
+      fallback_to_build_date: false
+
+# Gezinme (Navigasyon)
+nav:
+  - Home: index.md
+  - About: about.md
+  - User Guide:
+      - Introduction: guide/introduction.md
+      - Installation: guide/installation.md
+      - Configuration: guide/configuration.md
+      - Usage: guide/usage.md
+  - API Documentation:
+      - Overview: api/overview.md
+      - Endpoints:
+          - Users: api/users.md
+          - Products: api/products.md
+  - Tutorials:
+      - Getting Started: tutorials/getting_started.md
+      - Advanced Features: tutorials/advanced.md
+  - Blog: blog/index.md
+
+# SEO ve Sosyal Paylaşım
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/username/my-mkdocs-site
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/your-profile
+  analytics:
+    google: 'UA-XXXXXX-Y'  # Google Analytics ID
+  canonical_url: https://username.github.io/my-mkdocs-site  # Ana URL
+  site_description: 'A detailed project documentation with SEO optimizations.'
+  site_author: 'Kerim Turak'
+  consent:
+      title: Cookie consent
+      description: >- 
+        We use cookies to recognize your repeated visits and preferences, as well
+        as to measure the effectiveness of our documentation and whether users
+        find what they're searching for. With your consent, you're helping us to
+        make our documentation better.
+      cookies:
+        analytics: Google Analytics 
+        custom: Custom cookie
+  locale: 'en'
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Turkish
+      link: /tr/
+      lang: tr
+
+# Markdown Uzantıları (Gelişmiş Biçimlendirme)
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - footnotes  # Dipnot desteği
+  - toc:
+      permalink: true  # Başlık bağlantıları
+  - pymdownx.superfences  # Gelişmiş kod blokları
+  - pymdownx.tasklist  # Görev listeleri
+  - pymdownx.details  # Ayrıntı blokları
+  - attr_list  # Özel nitelik listeleri
+
+# Yayınlama Ayarları
+repo_url: https://github.com/username/my-mkdocs-site  # GitHub repo
+repo_name: 'GitHub'
+edit_uri: 'edit/main/docs/'  # Kullanıcıların GitHub üzerinden döküman düzenlemesi için link
+
+# Sayfa Başlıkları İçin Varsayılan Ayarlar
+use_directory_urls: true  # URL'ler sonunda .html olmadan
+extra_css:
+  - 'stylesheets/custom.css'  # Özel CSS
+extra_javascript:
+  - 'javascripts/custom.js'  # Özel JavaScript
+
+# GitHub Pages Konfigürasyonu
+site_dir: 'site'  # Statik dosyaların oluşturulacağı dizin
+
+copyright: >
+  Copyright &copy; 2023 - 2024 Kerim Turak –
+  <a href="#__consent">Change cookie settings</a>
