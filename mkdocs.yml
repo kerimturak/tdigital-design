@@ -25,19 +25,6 @@ plugins:
   - search:  # Arama motoru yapılandırması
       lang: en
       separator: '[\s\-]+'
-  - mkdocs-material:
-      features:
-        - content.code.annotate  # Kod açıklamaları
-  - sitemap:  # SEO için site haritası
-      changefreq: 'monthly'
-      priority: 0.5
-  - mkdocs-minify-plugin:  # HTML, CSS ve JS dosyalarını küçültme
-      minify_html: true
-  - mkdocs-glightbox:  # Görselleri ışık kutusunda açma (lightbox)
-      touchNavigation: true
-  - markdown_include:  # Markdown dosyalarını başka dosyalarda include etme
-  - awesome-pages:  # Otomatik gezinme yapısı oluşturma
-  - git-revision-date-localized:  # Sayfa en son düzenlenme tarihi
       fallback_to_build_date: false
 
 # Gezinme (Navigasyon)
