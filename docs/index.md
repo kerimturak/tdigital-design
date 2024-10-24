@@ -1,3 +1,18 @@
+---
+hide:
+  - navigation
+  - toc
+search:
+  boost: 2 
+---
+
+nav:
+  - Section:
+    - section/index.md 
+    - Page 1: section/page-1.md
+    ...
+    - Page n: section/page-n.md
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -15,3 +30,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+```systemverilog
+assign a = 1;
+```
