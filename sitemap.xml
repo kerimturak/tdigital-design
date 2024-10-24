@@ -1,83 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://tcore.org/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/about/about/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/about/about/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/blog/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/blog/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/design/alu/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/design/alu/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/design/memory-management/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/design/memory-management/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/design/pipeline/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/design/pipeline/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/design/processor-core/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/design/processor-core/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/development/environment-setup/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/development/environment-setup/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/development/getting-started/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/development/getting-started/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/development/simulation-testing/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/development/simulation-testing/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/overview/architecture/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/overview/architecture/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/overview/features/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/overview/features/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/overview/introduction/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/overview/introduction/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/reference/debugging/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/reference/debugging/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/reference/faq/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/reference/faq/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tcore.org/reference/instruction-set/</loc>
+         <loc>https://kerimturak.github.io/my-mkdocs-site/reference/instruction-set/</loc>
          <lastmod>2024-10-24</lastmod>
-         <changefreq>daily</changefreq>
     </url>
 </urlset>
